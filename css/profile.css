@@ -1,0 +1,162 @@
+nav ul li a {
+  color: white;
+  font-size: 1.25em;
+  padding-top: .5em;
+}
+nav .brand-logo.center {
+  line-height: 1em;
+  padding-top: 0.5em
+}
+#logo {
+  padding-top: 20px;
+  height: 80px;
+}
+nav .nav-wrapper {
+	padding-bottom: 100px;
+  height: 40px;
+}
+ul#mobile-demo li a {
+  font-family: Playfair Display;
+  color: white;
+}
+nav.navbar.shrink {
+  min-height: 35px;
+  transition: all .5s ease-in-out;
+}
+nav.shrink a {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  font-size: 15px;
+  transition: all .3s ease-in-out;
+}
+nav.shrink .navbar-brand {
+  font-size: 25px;
+  transition: all .3s ease-in-out;
+}
+nav.shrink .nav-wrapper {
+  padding-bottom: 75px;
+  transition: all .3s ease-in-out;
+}
+nav.shrink #logo {
+  margin-top: -5px;
+  height: 75px;
+  padding-bottom: 5px;
+}
+/*.zoom {
+  -webkit-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out;
+}
+.zoom:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.1);
+}*/
+#nav-mobile{
+  text-decoration: none;
+}
+
+
+/*----------------*/
+
+#payPlan {
+  background-color: #404040;
+}
+#cancelBtn{
+    background-color: #404040;
+
+}
+
+.stream{
+  border: 1px solid #E0E0E0;
+  background-color: #E0E0E0;
+  
+}
+#editBtn{
+    background-color: #404040;
+    color: white;
+    align-items: right;
+}
+
+#okBtn{
+    background-color: #404040;
+    color: white;
+    align-items: right;
+}
+
+
+/*#streamBox{
+  border: 1px solid #404040;
+  background-color: #D0D0D0;
+  color: #404040;
+  padding-top: 1%;
+}*/
+#streamBox2{
+  /*border: 1px solid #404040;*/
+  background-color: white;
+}
+.key{
+  /*border: 4px solid #ff1a1a;*/
+  
+}
+.stream1{
+  color: #404040;
+  border: 4px solid #ff1a1a;
+}
+
+.stream3{
+/*border: 4px solid red;*/
+  color: #404040;
+}
+
+
+.account {
+    border: 4px solid #ff1a1a;
+    margin-top: 10px;
+}
+
+
+#editBtn{
+    background-color: #404040;
+    color: white;
+    align-items: right;
+}
+
+.card{
+    background-color: #B0B0B0;
+}
+
+.btn{
+    background-color: #404040;
+    color: white;
+}
+
+.cancel{
+    background-color: white;
+    margin-top: 12%;
+}
+
+/*#loader{
+  height: 1500px;
+  width: 1500px;
+  background-color: red;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+
+#loader img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}*/
+
+/*.preload{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}*/

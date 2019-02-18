@@ -1,0 +1,137 @@
+/*
+
+body{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 15px;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}*/
+
+nav ul li a {
+  color: white;
+  font-size: 1.25em;
+  padding-top: .5em;
+}
+nav .brand-logo.center {
+  line-height: 1em;
+  padding-top: 0.5em
+}
+#logo {
+  padding-top: 20px;
+  height: 80px;
+}
+nav .nav-wrapper {
+	padding-bottom: 100px;
+  height: 40px;
+}
+ul#mobile-demo li a {
+  font-family: Playfair Display;
+  color: white;
+}
+nav.navbar.shrink {
+  min-height: 35px;
+  transition: all .5s ease-in-out;
+}
+nav.shrink a {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  font-size: 15px;
+  transition: all .3s ease-in-out;
+}
+nav.shrink .navbar-brand {
+  font-size: 25px;
+  transition: all .3s ease-in-out;
+}
+nav.shrink .nav-wrapper {
+  padding-bottom: 75px;
+  transition: all .3s ease-in-out;
+}
+nav.shrink #logo {
+  margin-top: -5px;
+  height: 75px;
+  padding-bottom: 5px;
+}
+.zoom {
+  -webkit-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out;
+}
+.zoom:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.1);
+}
+
+
+
+
+.loginbox{
+	height: 350px;
+  width: 320px;
+	/*background-color: #D0D0D0;*/
+	color: #fff;
+	box-sizing: border-box;
+	/*padding: 70px 30px;*/
+	margin-top: 15%;
+  border: 5px solid #404040;
+  margin-left: calc(100% - 64%);
+
+}
+
+
+
+#pro {
+  margin-top: -70px;
+  margin-left: calc(50% - 55px);
+  width: 120px;
+  border-radius: 50%;
+  border: 6px solid  #404040;
+  /*border-style: double;*/
+}
+
+.detail{
+  margin-top: -270px;
+	padding-left: 30px;
+	/*background-color: #404040;*/
+  color: #404040;
+  margin-bottom: -170px;
+  margin-left: calc(100% - 65%);
+}
+
+
+#googleBtn{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+#googleBtn:hover{
+	cursor: pointer;
+	background: #ff1a1a;
+	color: #000;
+}
+
+.loginbox a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgrey;
+}
+
+.loginbox a:hover{
+	color: #ff1a1a;
+}
+
+#footer{
+  position: absolute;
+  bottom: 70px;
+  left: 0px;
+  right:0px;
+
+}
+
+
+	

@@ -1,0 +1,52 @@
+nav ul li a {
+  color: #3399ff;
+  font-size: 1.25em;
+  padding-top: .5em;
+}
+nav .brand-logo.center {
+  line-height: 1em;
+  padding-top: 0.5em
+}
+#logo {
+  padding-top: 20px;
+  height: 80px;
+}
+nav .nav-wrapper {
+  padding-bottom: 100px;
+  height: 40px;
+}
+ul#mobile-demo li a {
+  font-family: Playfair Display;
+  color: #3399ff;
+}
+/*nav.navbar.shrink {
+  min-height: 35px;
+  transition: all .5s ease-in-out;
+}
+nav.shrink a {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  font-size: 15px;
+  transition: all .3s ease-in-out;
+}
+nav.shrink .navbar-brand {
+  font-size: 25px;
+  transition: all .3s ease-in-out;
+}
+nav.shrink .nav-wrapper {
+  padding-bottom: 75px;
+  transition: all .3s ease-in-out;
+}
+nav.shrink #logo {
+  margin-top: -5px;
+  height: 75px;
+  padding-bottom: 5px;
+}*/
+.zoom {
+  -webkit-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out;
+}
+.zoom:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.1);
+}

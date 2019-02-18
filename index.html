@@ -1,0 +1,362 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>FastCast - LiveStreaming</title>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" type="text/css" href="css/index.css">
+   <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+
+</head>
+<body>
+
+  <div class="indexPage">
+     <div class="navbar-fixed">
+      <nav class="nav">
+    
+        <div class="nav-wrapper grey darken-3">
+          <div class="container">
+          <a href="index.html" class="brand-logo"><img src="css/logo1.png"  width=225px height=60px id="logo"></a>
+
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons" style="color: #FFFFFF">menu</i></a>
+
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+        
+              <li><a href="#plans" id="planTab" >Plans</a></li>
+              <li><a href="/login" style="color: #FFFFFF" id="loginTab">Log In</a></li>
+        
+            </ul>
+          </div>
+      
+        
+        </div>
+      </nav>
+    </div>
+    <!--========================= -->
+    <!--Begin Mobile Navbar -->
+    
+    <ul class="side-nav grey darken-3" id="mobile-demo">
+      <li><a href="#plans" id="planTab" style="color: white">Plans</a></li>
+      <li><a href="/login" style="color: #FFFFFF" id="loginTab">Log In</a></li> 
+    </ul>
+    <!--End Mobile Navbar -->
+    <!--========================= -->
+
+    <!--Begin Slideshow Greeting -->
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <video autoplay muted loop id="myVideo">
+            <source src="css/videovo1.mp4" type="video/mp4">
+          </video>
+       <!-- random image -->
+          <div class="caption left-align">
+            <h3 class="view">FastCast</h3>
+            <h5 class="light grey-text text-lighten-3 view">Live Streaming made fast and easy</h5>
+          </div>
+        </li>
+        <li>
+          <video autoplay muted loop id="myVideo">
+          <source src="css/videovo1.mp4" type="video/mp4">
+        </video>
+          <div class="caption center-align">
+            <h3 class="view">Live Streaming made just for you</h3>
+            <h5 class="light grey-text text-lighten-3 view">Your stream.  Your brand.  Your site.</h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col s12 center-align section scrollspy" id="about">
+          <h3>Broadcast With Ease</h3>
+          <p>Set up your stream in seconds.  No hassles, no waiting.  It just works.</p>
+          <p></p>
+          <p></p>
+        </div>
+      </div>
+
+    <!--   Begin Best Features section   -->
+      <div class="row">
+         <div class="col s12 m4">
+           <div class="icon-block">
+             <h2 class="center light-blue-text"><img src="css/logoWhite.png" width=80px height=80px></h2>
+             <h5 class="center">Your Stream</h5>
+             <p class="light" style="font-family: 'Roboto'">Stream from any standard streaming software.  Works with OBS, Adobe FMLE, VLC, and more.</p>
+           </div>
+         </div>
+
+         <div class="col s12 m4">
+           <div class="icon-block">
+             <h2 class="center light-blue-text"><img src="css/logoWhite.png" width=80px height=80px></h2>
+             <h5 class="center">Your Site</h5>
+             <p class="light" style="font-family: 'Roboto'">Include your live stream on your web site using our player library, or build your own.</p>
+           </div>
+         </div>
+
+         <div class="col s12 m4">
+           <div class="icon-block">
+             <h2 class="center light-blue-text"><img src="css/logoWhite.png" width=80px height=80px></h2>
+             <h5 class="center">Your Brand</h5>
+             <p class="light" style="font-family: 'Roboto'">Ensure that your stream only runs from your web site.  Post it publicly or put it behind a login.</p>
+           </div>
+         </div>
+      </div>
+      </div>
+      <br>
+      <br>
+      <div class="row table sect2">
+        <div class="col offset-l2 l8 s12 m12">
+        <table>
+          <tr>
+            <th></th>
+            <th>   FastCast</th>
+            <th>   DaCast</th>
+            <th>   Churchstreaming.tv</th>
+            <th>   Wowza</th>
+            <th>   StreamShark</th>
+            <th>   liveStream</th>
+          </tr>
+          <tr>
+            <th>Pricing</th>
+            <td>$</td>
+            <td>$$</td>
+            <td>$$$</td>
+            <td>$$$</td>
+            <td>$$$</td>
+            <td>$$$$</td>
+          </tr>
+          <tr>
+            <th>Free Tier <span id="star">&#x2736;</span></th>
+            <td>&#x2714;</td>
+            <td>&#x2714;</td>
+            <td>&#x2714;</td>
+            <td>&#x2714;</td>
+            <td>&#x2714;</td>
+            <td>&#x274C;</td>
+            
+          </tr>
+          <tr>
+            <th>Set Uptime & User Friendly</th>
+            <td>&#x2714;</td>
+            <td>&#x2714; Little Confusing</td>
+            <td>&#x274C;</td>
+            <td>&#x2714;</td>
+            <td>&#x274C;</td>
+            <td>&#x274C;</td>
+          </tr>
+          <tr>
+            <th>StartUP Time  <span id="star">&#x2736;</span></th>
+            <td>instant</td>
+            <td>instant</td>
+            <td>days</td>
+            <td>instant</td>
+            <td>days</td>
+            <td>days</td>
+          </tr>
+          <tr>
+            <th>Ad-Free</th>
+            <td>&#x2714;</td>
+            <td>&#x2714;</td>
+            <td>&#x2714;</td>
+            <td>&#x2714;</td>
+            <td>&#x2714;</td>
+            <td>&#x2714;</td>
+          </tr>
+          <tr>
+            <th>Bandwidth Charges</th>
+            <td>&#x274C;</td>
+            <td>&#x2714;</td>
+            <td>&#x274C;</td>
+            <td>&#x2714;</td>
+            <td>&#x2714;</td>
+            <td>&#x274C;</td>
+          </tr>
+          <tr>
+            <th>Customer Support</th>
+            <td>&#x2714;</td>
+            <td>&#x2714;</td>
+            <td>&#x2714;</td>
+            <td>&#x2714;</td>
+            <td>&#x2714;</td>
+            <td>&#x2714;</td>
+          </tr>
+          <tr>
+            <th>Multi-bitrate Streaming</th>
+            <td>&#x2714;</td>
+            <td>&#x2714;</td>
+            <td>&#x2714;</td>
+            <td>&#x2714;</td>
+            <td>&#x2714;</td>
+            <td>&#x2714;</td>
+          </tr>
+          <tr>
+            <th>White Labelling</th>
+            <td>&#x2714;</td>
+            <td>&#x2714;</td>
+            <td>&#x274C;</td>
+            <td>&#x2714;</td>
+            <td>&#x2714;</td>
+            <td>&#x2714;</td>
+          </tr>
+          
+        </table>
+      </div>
+      </div>
+      
+
+      <div class="section scrollspy" id="plans">
+       <section class="price-table" >
+         <h4 id="plans" align="center" >Pricing Plans</h4>
+         <div class="row">
+           <div class=" col m8 l9 sect">
+             <div class="row">
+               <h5 align="center"><b>Individual Plans</b></h5>
+             </div>
+             <div class="row">
+               <div class="col m4 l3">
+                 <div class="single-price">
+                   <div class="price-head">
+                     <h6>Free</h6>
+                     <p>$0/<span>month</span></p>
+                   </div>
+                   <div class="price-content">
+                     <ul>
+                       <li><i class="fa fa-check-circle" aria-hidden="true"></i> 2 Viewers</li>
+                   
+                     </ul>
+                   </div>
+                   <div class="price-bottom">
+                     <a href="#" class="buy-btn">Sign Up</a>
+                   </div>
+                 </div>
+               </div>
+               <!-- ---------------------------- -->
+               <div class="col m4 l3">
+                 <div class="single-price">
+                   <div class="price-head">
+                     <h6>Small Plan</h6>
+                     <p>$25/<span>month</span></p>
+                   </div>
+                   <div class="price-content">
+                     <ul>
+                       <li><i class="fa fa-check-circle" aria-hidden="true"></i> 10 Viewers</li>
+                     </ul>
+                   </div>
+                   <div class="price-bottom">
+                     <a href="#" class="buy-btn">Sign Up</a>
+                   </div>
+                 </div>
+               </div>
+               <!-- ---------------------------- -->
+               <div class="col m4 l3">
+                 <div class="single-price">
+                   <div class="price-head">
+                     <h6>Medium Plan</h6>
+                     <p>$50/<span>month</span></p>
+                   </div>
+                   <div class="price-content">
+                     <ul>
+                       <li><i class="fa fa-check-circle" aria-hidden="true"></i> 25 Viewers</li>
+                     </ul>
+                   </div>
+                   <div class="price-bottom">
+                     <a href="#" class="buy-btn">Sign Up</a>
+                   </div>
+                 </div>
+               </div>
+               <!-- ---------------------------- -->
+               <div class="col m4 l3">
+                 <div class="single-price">
+                   <div class="price-head">
+                     <h6>Large Plan</h6>
+                     <p>$150/<span>month</span></p>
+                   </div>
+                   <div class="price-content">
+                     <ul>
+                       <li><i class="fa fa-check-circle" aria-hidden="true"></i> 100 Viewers</li>
+                     </ul>
+                   </div>
+                   <div class="price-bottom">
+                     <a href="#" class="buy-btn">Sign Up</a>
+                   </div>
+                 </div>
+               </div>
+               <!-- ---------------------------- -->
+               
+             </div>
+           </div>
+           <div class="col m8 l3 sect2">
+             <div class="row">
+               <h5 align="center"><b>Corporate Plans</b></h5>
+             </div>
+             <div class="row">
+               <div class="single-price">
+                 <div class="price-head">
+                   <h6>Corporate Plan</h6>
+                   <p>$250+/<span>month</span></p>
+                 </div>
+                 <div class="price-content">
+                   <ul>
+                     <li><i class="fa fa-check-circle" aria-hidden="true"></i> Up to 5000 Viewers</li>
+                     <!-- <li><i class="fa fa-times-circle" aria-hidden="true"></i> Price Negotiable</li> -->
+                     <li><i class="fa fa-check-circle" aria-hidden="true"></i> Non Profits contact sales@fastcast.net for discounts</li>
+                   </ul>
+                 </div>
+                 <div class="price-bottom">
+                   <a href="#contact" class="buy-btn">Contact Us</a>
+                   
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </section>
+     </div>
+       
+       
+    </div>
+    
+    <div id="footer"></div>
+
+  </div>
+
+ 
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+ <script>
+   $(document).ready(function(){
+      $('.slider').slider();
+      $(".button-collapse").sideNav({closeOnClick: true});
+      $(".scrollspy").scrollSpy({scrollOffset: 0});
+    });
+
+
+  // Pause slider
+  $('.slider').slider('pause');
+  // Start slider
+  $('.slider').slider('start');
+  // Next slide
+  $('.slider').slider('next');
+  // Previous slide
+  $('.slider').slider('prev');
+   </script>
+
+
+  <script src="app.js"></script>
+          
+</body>
+</html>

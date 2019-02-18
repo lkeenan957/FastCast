@@ -1,0 +1,303 @@
+
+
+body{
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+
+video{
+	width: 100%;
+}
+
+/*/--------------------------------*/
+/*/--------------------------------HEADER DETAILS*/
+nav ul li a {
+  color: white;
+  font-size: 1.25em;
+  padding-top: .5em;
+}
+nav .brand-logo.center {
+  line-height: 1em;
+  padding-top: 0.5em
+  
+}
+#logo {
+  padding-top: 20px;
+  height: 80px;
+}
+nav .nav-wrapper {
+  padding-bottom: 100px;
+  height: 40px;
+  
+}
+ul#mobile-demo li a {
+  font-family: Playfair Display;
+  color: #3399ff;
+}
+/*.zoom {
+  -webkit-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out;
+}
+.zoom:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.1);
+}*/
+/*/--------------------------------*/
+/*/--------------------------------*/
+
+#bandwidth{
+	color: #ff1a1a;
+	font-weight: bolder;
+	font-size: 50px;
+}
+
+#band{
+	border: 2px solid #ff1a1a;
+	border-radius: 12px;
+	width: 650px;
+	font-size: 30px;
+	padding: 10px;
+}
+
+h6{
+	font-weight: bold;
+}
+
+h5{
+	font-weight: bolder;
+}
+
+#plans{
+	font-weight: bolder;
+}
+
+#star {
+  color: #ff1a1a;
+}
+table th{
+    font-size: 18px;
+    background-color: #fff;
+    text-align: right;
+    
+    border-collapse: collapse;
+}
+table td{
+    font-size: 15px;
+    text-align: center;
+    border: 2px solid #ff1a1a;
+    border-collapse: collapse;
+}
+
+table tr:nth-child(even) {
+    background-color: #eee;
+
+}
+/*table tr:nth-child(odd) {
+   background-color: #fff;
+
+}*/
+
+.price-table
+{
+  padding: 60px 0;
+ /* border: 1px solid red;*/
+}
+
+
+.single-price
+{
+  margin: 10px auto;
+  display: inline;
+  float: left;
+  width: 100%;
+  background-color: #efefef;
+  transition: 0.5s;
+}
+
+.single-price:hover
+{
+  box-shadow: 0 2px 20px #ccc;
+}
+
+.price-head
+{
+ background-color: #404040;
+ color: white;
+ display: inline;
+ float: left;
+ padding: 10px 5px;
+ text-align: center;
+ width: 100%; 
+}
+
+.price-head h4
+{
+  color: #fff;
+  /*font-size: 30px;*/
+  font-weight: bold;
+  margin-bottom: 0;
+  padding: 5px;
+  /*text-transformation: ;*/
+}
+
+.price-head p
+{
+  color: #ccc;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+span
+{
+  font-size: 15px;
+}
+
+.price-content
+{
+  display: inline;
+  float: left;
+  width: 100%;
+  padding: 0 15px;
+}
+
+ul li
+{
+ 
+  padding: 15px 10px;
+  list-style: none;
+}
+
+ul li:last-child{
+  border: none;
+}
+
+.fa
+{
+  padding: 0 10px;
+  color: red;
+  font-size: 20px;
+}
+
+.fa-check-circle
+{
+  color: green;
+}
+
+.fa-times-circle
+{
+  color: red;
+}
+
+.price-bottom{
+  display: inline;
+  float: left;
+  padding: 15px 15px 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.buy-btn
+{
+  background-color: #404040;
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  padding: 15px 50px;
+  transition: all 0.5s;
+}
+
+.buy-btn:hover
+{
+  border-color: 1px solid #fff;
+  background-color: #3f51b5;
+}
+
+/*a
+{
+  text-decoration: none !important;
+  color: #fff !important;
+}
+*/
+/*/////--------------contact page--------------------*/
+
+.headers{
+  text-align: center;
+  margin-top: 20%;
+/*  margin-left: 50%;*/
+ /* transform: translate(-50%, -50%);*/
+}
+
+
+.headers h1{
+  color: #404040;
+  font-size: 46px;
+}
+
+.headers p{
+  color: #ccc;
+  font-size: 12px;
+}
+
+.form{
+  /*transform: translate(-50%, -50%);*/
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+input{
+  border: none;
+  border-bottom: 1px solid #404040;
+}
+
+#msg{
+  margin-top: 40px;
+}
+
+button {
+  padding: 1% 2%;
+  font-size: 16px;
+  border-radius: 4px;
+  
+}
+/*/////--------------end of contact page--------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
